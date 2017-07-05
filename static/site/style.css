@@ -1,0 +1,492 @@
+/* Yahoo! stuff ;> */
+/*
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+* {
+    margin: 0;
+}
+
+/*
+ * Security BSides Main CSS
+ * Copyright (c) 2012-2013
+ *
+ * Teeed was here! :)
+*/
+
+body {
+	background-color: #9c9e99;
+	
+	font-size: 12px;
+	font-family: Duru Sans, Helvetica, sans-serif;
+	color: #959792;
+
+	min-width: 1000px;
+}
+
+p {
+	margin-top: 10px;
+}
+
+#background {
+	position: absolute;
+	background: url(img/background.png);
+	
+	top: 50px;
+	left: 50%;
+	
+	margin-left: -330px;
+	
+	width: 813px;
+	height: 995px;
+	
+	user-select: none;
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+}
+
+#wrapper {
+}
+
+#top {
+	background: url(img/background_top.jpg);
+	
+	width: 1000px;
+	height: 358px;
+	
+	margin: 0 auto;
+	
+	position: relative;
+	font-size: 14px;
+}
+
+#top #title {
+	position: absolute;
+	left: 51px;
+	top: 90px;
+	
+	width: 512px;
+	height: 45px;
+	
+	line-height: 45px;
+	
+	
+	color: white;
+	font-size: 18px;
+	
+		
+}
+
+#top #description {
+	position: absolute;
+	
+	top: 39px;
+	left: 563px;
+	
+	width: 357px; /*437*/
+	height: 100px; /*119*/
+	
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+		
+	color: black;
+	
+	line-height: 20px;
+	
+	text-align: justify;
+	
+	
+}
+
+#top #description h1 {
+	background-color: black;
+	color: #f7f001;
+	padding: 1px;
+}
+/* 
+#top #description strong {
+	font-weight: bolder;
+}
+ */
+#top #assumptions {
+	position: absolute;
+	
+	top: 158px;
+	left: 563px;
+	
+	width: 397px; /*437*/
+	height: 140px; /*200*/
+	
+	padding: 20px;
+	
+	color: white;
+}
+
+#top #assumptions h1 {
+}
+
+#top #assumptions ul {
+	margin-top: 10px;
+}
+
+ul li {
+	list-style-image: url(img/bullet.png); 
+	margin-left: 20px;
+}
+
+#top #assumptions li {
+	line-height: 20px;	
+	
+	font-size: 12px;
+	
+	color: #f8f102;
+}
+
+#top #assumptions p {	
+	
+	font-size: 12px;
+}
+
+#top #assumptions span {
+	
+	font-style: italic;
+}
+
+#content {
+	width: 1000px;
+	
+	overflow: auto;
+		
+	margin: 0 auto;
+}
+
+#content_left {
+	float: left;
+}
+#content_left>div { /*.big*/
+	width: 483px; /*533*/	
+	text-align: justify;	
+	padding: 40px;
+}
+
+#content_left>div:first-child {
+	margin-top: 0;
+}
+
+#content_left>div, #content_right>div {
+	margin-top: 20px;
+}
+
+
+#content_right {
+	float: right;
+}
+
+#content_right>div { /*.small*/ 
+	width: 338px; /*418*/
+	
+	text-align: justify;
+	
+	padding: 40px;
+}
+
+.white {
+	background: white url(img/box_big_white_right_bottom.png) no-repeat right bottom;
+	color: black;
+}
+
+.black {	
+	background: #19191b url(img/box_small_black_left_top.png) no-repeat top left;
+	color: white;
+	
+}
+/*
+
+#content #people {	
+	margin-top: 80px;
+}
+*/
+.black h1 {
+	background: #f8f102;
+	color: black;
+	
+	line-height: 20px;
+	
+	font-size: 16px;
+	
+	padding: 5px;
+
+	margin: 5px 0;
+}
+
+#organisers_patrons img {
+	margin: 10px 0;
+}
+
+/*
+#content #topics {
+	margin-top: 80px;
+}*/
+
+#content #topics ul {
+	
+	margin: 10px 0;
+}
+
+#content #topics  li {
+	color: #f8f102;
+	line-height: 15px;
+	
+}
+/*
+#content #location {
+	margin-top: 40px;
+}
+
+#content #location p {
+	text-align: left;
+}*/
+
+.plugin_googlemap {
+	margin: 10px 0;
+}
+
+#content #whywarsaw {
+	margin-top: 40px;
+}
+
+
+#content_left>.black h1 {
+	color: #f8f102;
+	
+	background: none;
+	
+	padding: 0;
+	
+	font-size: 16px;
+}
+
+.white h1 {
+	color: black;
+	
+	background: none;
+	
+	font-size: 16px;
+}
+
+.white a {
+	color: black;
+}
+
+.white.righttop {
+	background: white url(img/box_big_white_right_top.png) no-repeat right top;
+}
+
+.black a {
+	color: white;
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+#footer {
+	background: #19191b url(img/footer_right.png) right no-repeat;
+	
+	margin: 0 auto;
+	padding-right: 40px;
+	
+	width: 960px;
+
+	line-height: 29px;
+	
+	text-align: right;
+	
+	position: relative;	
+	
+}
+
+#footer span {
+	float: left;
+	margin-left: 20px;
+}
+
+#footer a {
+	color: white;
+	text-decoration: underline;
+}
+
+.overlay {
+	display:none;
+ 
+    z-index:10000; 
+ 
+    color: black;
+	
+	width: 820px;
+	
+	padding: 40px;
+}
+
+.overlay h1 {
+	font-size: 22px;
+	
+}
+
+.overlay h2 {
+	font-size: 16px;
+}
+
+.row {
+	display: block;
+	margin: 20px 0;
+}
+
+.row div {
+	display: block;
+	padding: 10px 0;
+}
+
+.row label {
+	font-size: 16px;
+	
+	width: 300px;
+	
+	display: inline-block;
+	
+	
+}
+
+.row label span {
+	color: red;
+}
+
+
+.row-legend {
+	color: red;
+}
+
+#topic1 label, #topic2 label, #topic3 label {
+	width: 280px;
+}
+
+.row input {
+	height: 16px;
+	
+	border: solid 1px;
+}
+
+.row-submit {
+	margin-top: 20px;
+}
+
+.row-submit input {
+	line-height: 30px;
+	height: 30px;
+	width: 100px;
+}
+
+
+
+#registration p {
+	margin-top: 20px;
+}
+
+#registration-tabs li {
+	list-style: none;
+	display: inline-block;
+	margin-left:0;
+	
+}
+
+#registration-tabs li a {
+	display: inline-block;
+	padding: 20px;
+	
+	background: #f8f102;
+	
+	font-size: 16px;
+	
+	border-bottom: #f0f0f0 1px solid;
+	
+	text-decoration: none;
+}
+
+#registration-tabs li a.current {
+	background: white;
+	
+	border-bottom: white 1px solid;
+}
+
+#registration-tabs a {
+	color: black;
+}
+
+#registration-panels>div  {
+	background: white;
+	color: black;
+	
+	padding: 40px;
+}
+
+.error {
+	z-index: 20000;
+	margin-left: 20px;
+	
+	color: red;
+}
+
+.error p {
+	margin: 0;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.ajax-loader {
+	display: none;
+}
+
+#coop, #regulations {
+	background-color: white;
+	padding: 20px;
+	
+	text-align: justify;
+}
+
+#coop div, #regulations div {
+	max-height: 550px;
+	margin: 10px;
+	overflow: auto;
+}
+
+#regulations ol.nonelist>li {
+	list-style-type:  none;
+}
+
+#regulations li, #regulations ol {
+	list-style: decimal;
+	padding-left: 15px;
+}
+
+.alphalist li {
+	list-style: lower-alpha !important;
+}
+
+#wannabe {
+	margin-top: 40px;
+}
+
+.plugin_googlemap {
+	color: black;
+}
