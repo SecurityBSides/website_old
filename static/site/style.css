@@ -20,7 +20,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 body {
 	background-color: #9c9e99;
-	
+
 	font-size: 12px;
 	font-family: Duru Sans, Helvetica, sans-serif;
 	color: #959792;
@@ -35,20 +35,20 @@ p {
 #background {
 	position: absolute;
 	background: url(img/background.png);
-	
+
 	top: 50px;
 	left: 50%;
-	
+
 	margin-left: -330px;
-	
+
 	width: 813px;
 	height: 995px;
-	
+
 	user-select: none;
-	-moz-user-select: none; 
-	-khtml-user-select: none; 
-	-webkit-user-select: none; 
-	-o-user-select: none; 
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
 }
 
 #wrapper {
@@ -56,12 +56,12 @@ p {
 
 #top {
 	background: url(img/background_top.jpg);
-	
+
 	width: 1000px;
 	height: 358px;
-	
+
 	margin: 0 auto;
-	
+
 	position: relative;
 	font-size: 14px;
 }
@@ -70,39 +70,39 @@ p {
 	position: absolute;
 	left: 51px;
 	top: 90px;
-	
+
 	width: 512px;
 	height: 45px;
-	
+
 	line-height: 45px;
-	
-	
+
+
 	color: white;
 	font-size: 18px;
-	
-		
+
+
 }
 
 #top #description {
 	position: absolute;
-	
+
 	top: 39px;
 	left: 563px;
-	
+
 	width: 357px; /*437*/
 	height: 100px; /*119*/
-	
+
 	padding-top: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
-		
+
 	color: black;
-	
+
 	line-height: 20px;
-	
+
 	text-align: justify;
-	
-	
+
+
 }
 
 #top #description h1 {
@@ -110,22 +110,22 @@ p {
 	color: #f7f001;
 	padding: 1px;
 }
-/* 
+/*
 #top #description strong {
 	font-weight: bolder;
 }
  */
 #top #assumptions {
 	position: absolute;
-	
+
 	top: 158px;
 	left: 563px;
-	
+
 	width: 397px; /*437*/
 	height: 140px; /*200*/
-	
+
 	padding: 20px;
-	
+
 	color: white;
 }
 
@@ -137,33 +137,33 @@ p {
 }
 
 ul li {
-	list-style-image: url(img/bullet.png); 
+	list-style-image: url(img/bullet.png);
 	margin-left: 20px;
 }
 
 #top #assumptions li {
-	line-height: 20px;	
-	
+	line-height: 20px;
+
 	font-size: 12px;
-	
+
 	color: #f8f102;
 }
 
-#top #assumptions p {	
-	
+#top #assumptions p {
+
 	font-size: 12px;
 }
 
 #top #assumptions span {
-	
+
 	font-style: italic;
 }
 
 #content {
 	width: 1000px;
-	
+
 	overflow: auto;
-		
+
 	margin: 0 auto;
 }
 
@@ -171,8 +171,8 @@ ul li {
 	float: left;
 }
 #content_left>div { /*.big*/
-	width: 483px; /*533*/	
-	text-align: justify;	
+	width: 483px; /*533*/
+	text-align: justify;
 	padding: 40px;
 }
 
@@ -189,11 +189,11 @@ ul li {
 	float: right;
 }
 
-#content_right>div { /*.small*/ 
+#content_right>div { /*.small*/
 	width: 338px; /*418*/
-	
+
 	text-align: justify;
-	
+
 	padding: 40px;
 }
 
@@ -202,32 +202,28 @@ ul li {
 	color: black;
 }
 
-.black {	
+.black {
 	background: #19191b url(img/box_small_black_left_top.png) no-repeat top left;
 	color: white;
-	
 }
 /*
 
-#content #people {	
+#content #people {
 	margin-top: 80px;
 }
 */
 .black h1 {
 	background: #f8f102;
 	color: black;
-	
 	line-height: 20px;
-	
 	font-size: 16px;
-	
 	padding: 5px;
 
 	margin: 5px 0;
 }
 
 #organisers_patrons img {
-	margin: 10px 0;
+	margin: 3px 0;
 }
 
 /*
@@ -236,14 +232,12 @@ ul li {
 }*/
 
 #content #topics ul {
-	
 	margin: 10px 0;
 }
 
 #content #topics  li {
 	color: #f8f102;
 	line-height: 15px;
-	
 }
 /*
 #content #location {
@@ -265,19 +259,14 @@ ul li {
 
 #content_left>.black h1 {
 	color: #f8f102;
-	
 	background: none;
-	
 	padding: 0;
-	
 	font-size: 16px;
 }
 
 .white h1 {
 	color: black;
-	
 	background: none;
-	
 	font-size: 16px;
 }
 
@@ -300,18 +289,12 @@ strong {
 
 #footer {
 	background: #19191b url(img/footer_right.png) right no-repeat;
-	
 	margin: 0 auto;
 	padding-right: 40px;
-	
 	width: 960px;
-
 	line-height: 29px;
-	
 	text-align: right;
-	
-	position: relative;	
-	
+	position: relative;
 }
 
 #footer span {
@@ -326,19 +309,14 @@ strong {
 
 .overlay {
 	display:none;
- 
-    z-index:10000; 
- 
+    z-index:10000;
     color: black;
-	
 	width: 820px;
-	
 	padding: 40px;
 }
 
 .overlay h1 {
 	font-size: 22px;
-	
 }
 
 .overlay h2 {
@@ -357,12 +335,8 @@ strong {
 
 .row label {
 	font-size: 16px;
-	
 	width: 300px;
-	
 	display: inline-block;
-	
-	
 }
 
 .row label span {
@@ -380,7 +354,6 @@ strong {
 
 .row input {
 	height: 16px;
-	
 	border: solid 1px;
 }
 
@@ -404,25 +377,19 @@ strong {
 	list-style: none;
 	display: inline-block;
 	margin-left:0;
-	
 }
 
 #registration-tabs li a {
 	display: inline-block;
 	padding: 20px;
-	
 	background: #f8f102;
-	
 	font-size: 16px;
-	
 	border-bottom: #f0f0f0 1px solid;
-	
 	text-decoration: none;
 }
 
 #registration-tabs li a.current {
 	background: white;
-	
 	border-bottom: white 1px solid;
 }
 
@@ -433,14 +400,12 @@ strong {
 #registration-panels>div  {
 	background: white;
 	color: black;
-	
 	padding: 40px;
 }
 
 .error {
 	z-index: 20000;
 	margin-left: 20px;
-	
 	color: red;
 }
 
@@ -460,7 +425,6 @@ h2 {
 #coop, #regulations {
 	background-color: white;
 	padding: 20px;
-	
 	text-align: justify;
 }
 
